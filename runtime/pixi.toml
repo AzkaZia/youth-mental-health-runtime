@@ -41,6 +41,7 @@ pytorch = {version = "2.1.2", channel = "pytorch"}
 tensorflow = {version = "2.14.0", build="cpu_py310hd1aba9c_0" }
 tensorflow-hub = {version = "0.16.1"}
 tensorflow-text = {version = "2.14.0"}
+
 # GPU DEPENDENCIES
 [feature.gpu]
 system-requirements = {cuda = "11.8"}
